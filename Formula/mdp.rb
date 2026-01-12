@@ -1,16 +1,16 @@
 class Mdp < Formula
   desc "A fast CLI tool that previews Markdown files in your browser with GitHub-styled rendering"
   homepage "https://github.com/sadiksaifi/mdp"
-  version "2.0.0"
+  version "2.0.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/sadiksaifi/mdp/releases/download/v2.0.0/mdp-darwin-arm64.tar.gz"
-      sha256 "7df6a351d2ae65e268e4cae3b309ee2f20ddc1d60e211a07436491395850e0a6"
+      url "https://github.com/sadiksaifi/mdp/releases/download/v2.0.1/mdp-darwin-arm64.tar.gz"
+      sha256 "9a604be885f91d19761ede4acdc56a11d01bb8f22bc96b9d73c8a9b39525ad2d"
     else
-      url "https://github.com/sadiksaifi/mdp/releases/download/v2.0.0/mdp-darwin-amd64.tar.gz"
-      sha256 "1f771fffbe924c10257ac235a301aca47eb440bbb157c268fbf1775d3ae104d4"
+      url "https://github.com/sadiksaifi/mdp/releases/download/v2.0.1/mdp-darwin-amd64.tar.gz"
+      sha256 "25e510aaca612a165c112fd5fd1b918d940d2fb904b2bac40cb069ec31da357b"
     end
   end
 

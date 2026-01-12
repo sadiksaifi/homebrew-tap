@@ -16,3 +16,4 @@ brew tap sadiksaifi/tap
 |:--- |:--- |:--- |:--- |
 | **ai-git** | AI-powered git commit message generator | `brew install ai-git` | [ai-git](https://github.com/sadiksaifi/ai-git) |
 | **mac-menu** | macOS-native GUI for fuzzy finding | `brew install mac-menu` | [mac-menu](https://github.com/sadiksaifi/mac-menu) |
+| **mdp** | Markdown previewer with GitHub-styled rendering | `brew install mdp` | [mdopen](https://github.com/sadiksaifi/mdp) |

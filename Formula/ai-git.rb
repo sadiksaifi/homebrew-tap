@@ -6,10 +6,10 @@ class AiGit < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/sadiksaifi/ai-git/releases/download/v2.2.1/ai-git-darwin-arm64.tar.gz"
-      sha256 "cc094b602573ad214883980c163befdc63f3e96e2329547eeafa03cf9ac4a4e4"
+      sha256 "fd6706af48da5a3d5ad65bf978141956a4016b24c468ca3ec319dc9ca1b7f740"
     else
       url "https://github.com/sadiksaifi/ai-git/releases/download/v2.2.1/ai-git-darwin-x64.tar.gz"
-      sha256 "7dbdaea9712de46b603403bdc531639267c217236e52b28bdde7ed58f5572edb"
+      sha256 "1b671034cabc5295cebe5281221121b5a5bd912adc8d6e8e3810d217218a8cd1"
     end
   end
 

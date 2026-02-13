@@ -1,15 +1,15 @@
 class AiGit < Formula
   desc "A CLI tool that leverages AI to automatically generate semantically correct, Conventional Commits compliant git messages."
   homepage "https://github.com/sadiksaifi/ai-git"
-  version "2.4.0-test.1"
+  version "2.5.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/sadiksaifi/ai-git/releases/download/v2.4.0-test.1/ai-git-darwin-arm64.tar.gz"
-      sha256 "e99f7491a50ca4bd22f4fa9f266af9560547a98002dfa83b6bb53b11ed7beefd"
+      url "https://github.com/sadiksaifi/ai-git/releases/download/v2.5.0/ai-git-darwin-arm64.tar.gz"
+      sha256 "0bff66d8a8120be2f91e49665682101bf8798f67800593ca2719e3d1fa8e81c3"
     else
-      url "https://github.com/sadiksaifi/ai-git/releases/download/v2.4.0-test.1/ai-git-darwin-x64.tar.gz"
-      sha256 "287abfed05d35b36b87fe0fc835cccf5ada8d097376f8a4c8a98d2fbda2bb7cd"
+      url "https://github.com/sadiksaifi/ai-git/releases/download/v2.5.0/ai-git-darwin-x64.tar.gz"
+      sha256 "8ef33885919a03b59f90c75fa25bd4381fc8e4cfb767abea2772789b23fe80bf"
     end
   end
 

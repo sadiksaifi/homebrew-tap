@@ -1,8 +1,8 @@
 class MacMenu < Formula
   desc "A command line tool for Mac"
   homepage "https://github.com/sadiksaifi/mac-menu"
-  url "https://github.com/sadiksaifi/mac-menu/releases/download/v1.0.0/mac-menu.tar.gz"
-  sha256 "55e96d90ff421e0a76c7ec04432d487cde7a715303f6f02ea3de4f5e4a0a0062"
+  url "https://github.com/sadiksaifi/mac-menu/releases/download/v1.0.1/mac-menu.tar.gz"
+  sha256 "9457e3198cfe1eb5b582ab124b57379192cca4bb3272b07cea580138c5057a55"
   license "MIT"
 
   def install

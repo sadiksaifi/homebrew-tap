@@ -1,6 +1,6 @@
 cask "spaceterm" do
-  version "0.4.1"
-  sha256 "017165da27ec71e8cfbfd586d63786575b47ce767d30097a8d2183d2bcdae8df"
+  version "0.5.0"
+  sha256 "6308022c807a0731bcc264c455e9178a928aebc6a0d0e6666baeb8a9ddeaa7d1"
 
   url "https://github.com/sadiksaifi/SpaceTerm/releases/download/v#{version}/SpaceTerm-#{version}-darwin-arm64.dmg"
   name "SpaceTerm"

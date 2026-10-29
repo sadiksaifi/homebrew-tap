@@ -1,9 +1,9 @@
 class Hdcap < Formula
   desc "HDMI and UVC capture with Apple silicon hardware encoding"
   homepage "https://github.com/sadiksaifi/hdcap"
-  url "https://github.com/sadiksaifi/hdcap/releases/download/v0.1.0/hdcap_darwin_arm64.tar.gz"
-  version "0.1.0"
-  sha256 "a06cbd68b47cff5a3f7ea37bdd382efd6985fc9c9075e62ee8835b2268001bd9"
+  url "https://github.com/sadiksaifi/hdcap/releases/download/v0.1.1/hdcap_darwin_arm64.tar.gz"
+  version "0.1.1"
+  sha256 "9b625014b2c200b19133edbc05da86bed7cb5add2e74c488588d1ce193e86f58"
   license "GPL-3.0-only"
 
   depends_on :macos

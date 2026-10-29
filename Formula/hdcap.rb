@@ -8,7 +8,9 @@ class Hdcap < Formula
 
   depends_on :macos
   depends_on arch: :arm64
-  depends_on macos: :tahoe
+  on_macos do
+    depends_on macos: :tahoe
+  end
 
   def install
     bin.install "hdcap"

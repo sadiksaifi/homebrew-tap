@@ -1,8 +1,8 @@
 class Aiusage < Formula
   desc "Claude Code and Codex usage, with local reset times and countdowns"
   homepage "https://github.com/sadiksaifi/aiusage"
-  url "https://github.com/sadiksaifi/aiusage/archive/refs/tags/v0.1.2.tar.gz"
-  sha256 "3615fc47361189476e91dd4ebea10ee748a1d18bdc9417c4a65cd6c18cef29dd"
+  url "https://github.com/sadiksaifi/aiusage/archive/refs/tags/v0.1.3.tar.gz"
+  sha256 "bdbf8f76ec49234e539f416656f87cfbd9105857583187159905c23db64b9876"
 
   depends_on "go" => :build
 

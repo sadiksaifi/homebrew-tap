@@ -1,11 +1,11 @@
 cask "spaceterm" do
-  version "0.6.8"
-  sha256 "c318cee866a192657073ca2a787c731308d7855131e186b720c4d16f0fd1d56a"
+  version "0.10.0"
+  sha256 "c0cfbdb8ab9c0f1e847295ceb90d6f6d1e799d4fbe3be1b70b38543bb2a5e62f"
 
-  url "https://github.com/sadiksaifi/SpaceTerm/releases/download/v#{version}/SpaceTerm-#{version}-darwin-arm64.dmg"
+  url "https://github.com/sadiksaifi/SpaceTerm/releases/download/v#{version}/SpaceTerm-#{version}-macos-arm64.dmg"
   name "SpaceTerm"
   desc "Native desktop terminal multiplexer"
-  homepage "https://github.com/sadiksaifi/SpaceTerm"
+  homepage "https://spaceterm.peblon.com"
 
   auto_updates true
   depends_on arch: :arm64
@@ -13,21 +13,15 @@ cask "spaceterm" do
 
   app "SpaceTerm.app"
 
-  # SpaceTerm is ad hoc signed and not notarized; see ADR 0009 in the SpaceTerm repository.
-  postflight_steps do
-    run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{appdir}}/SpaceTerm.app"]
-  end
-
   zap trash: [
     "~/.cache/spaceterm",
     "~/.config/spaceterm",
     "~/.local/share/spaceterm",
     "~/.local/state/spaceterm",
-    "~/Library/Caches/io.github.sadiksaifi.spaceterm",
-    "~/Library/HTTPStorages/io.github.sadiksaifi.spaceterm",
-    "~/Library/HTTPStorages/io.github.sadiksaifi.spaceterm.binarycookies",
-    "~/Library/Preferences/io.github.sadiksaifi.spaceterm.plist",
+    "~/Library/Caches/com.peblon.spaceterm",
+    "~/Library/HTTPStorages/com.peblon.spaceterm",
+    "~/Library/HTTPStorages/com.peblon.spaceterm.binarycookies",
+    "~/Library/Preferences/com.peblon.spaceterm.plist",
+    "~/Library/Saved Application State/com.peblon.spaceterm.savedState",
   ]
-
-  caveats "By using SpaceTerm, you acknowledge that it's not notarized."
 end
